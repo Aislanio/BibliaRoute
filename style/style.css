@@ -160,8 +160,9 @@ main{
 
 section h3{
     font-size: 5vh;
+    margin-bottom: 3vh;
 }
-section p{
+section span{
     font-size: 3vh;
     color: #777777;
 }
@@ -188,14 +189,41 @@ section p{
     align-items: center;
 }
 
+.benefits-container p{
+font-family: var(--main-family);
+    font-size: 4vh;
+}
+
+.ads-super{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
 
+}
+.ads-text{
+    width: 50%;
+    font-family: var(--main-family);
+    display: flex;
+    flex-direction: column;
+}
 
+.ads-text p{
+    font-size: 4vh;
+}
 
+.ads-text span{
+    word-wrap: break-word;
+}
 
-
-
-
+.link{
+    margin-top: 3vh;
+    text-decoration: none;
+    color: #F6A21C;
+}
+.link:hover{
+    text-decoration: underline;
+}
 
 
 
