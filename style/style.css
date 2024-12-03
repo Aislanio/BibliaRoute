@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+:root{
+    --main-family:"Inter", sans-serif;
+    --icon-family:'Baloo';
+}
 * {
     margin: 0;
     padding: 0;
@@ -17,11 +22,6 @@ html, body {
     background-color: #f0f0f0;
     min-width: 100vh;
     min-height: 100vh;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    
 }
 
 header{
@@ -147,34 +147,46 @@ nav{
     font-size: 1.3em;
     color: white;
 }
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    padding-top: 14vh;
+    font-family: var(--main-family);
+}
 
+section h3{
+    font-size: 5vh;
+}
+section p{
+    font-size: 3vh;
+    color: #777777;
+}
+.divisoria{
+    width:80%;
+    height: 1.57px;
+    background-color: #E5E5E5;
 
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+.benefits-section, .benefits-container{
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+}
+.benefits-container span{
+    word-wrap: break-word;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.benefits-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
