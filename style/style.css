@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-<<<<<<< HEAD
 
-=======
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 :root{
     --main-family:"Inter", sans-serif;
     --icon-family:'Baloo';
@@ -64,11 +61,7 @@ header .logo h1{
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 .start_word img{
-=======
-.container_start .start_word img{
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
     width: 100%;
     max-width: 53vh;
     animation: girar 70s linear infinite;
@@ -78,11 +71,7 @@ header .logo h1{
     -webkit-user-select: none;
     -ms-user-select: none;
 }
-<<<<<<< HEAD
 .start_word{
-=======
-.container_start .start_word{
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
     z-index: 1;
 }
 .start_text{
@@ -126,10 +115,7 @@ text-align: center;
   color: white;
     z-index: 2;
   font-size: 3em;   
-<<<<<<< HEAD
   width: 110vh;
-=======
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 }
 
 .estrelas{
@@ -141,7 +127,6 @@ z-index: 0;
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-<<<<<<< HEAD
 nav {
     width: 100%;
     height: 10vh;
@@ -155,22 +140,10 @@ nav {
   }
   
   .nav-livros {
-=======
-
-nav{
-    width: 100%;
-    height: 10vh;
-    background-color: #074983;
-}
-
-.nav-livros{
-    width: 100%;
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
     display: flex;
     list-style: none;
     color: white;
     overflow: hidden;
-<<<<<<< HEAD
     white-space: nowrap; 
     margin: 0;
     padding: 0;
@@ -182,13 +155,6 @@ nav{
     flex-shrink: 0;
   }
   
-=======
-}
-.nav-livros li{
-    font-size: 1.3em;
-    margin-right: 4vh;
-}
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 .next{
     font-size: 1.3em;
     color: white;
@@ -209,11 +175,7 @@ section h3{
     margin-bottom: 3vh;
 }
 section span{
-<<<<<<< HEAD
     font-size: 2.3vh;
-=======
-    font-size: 3vh;
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
     color: #777777;
 }
 .divisoria{
@@ -230,14 +192,10 @@ section span{
     text-align: center;
 }
 .benefits-container span{
-<<<<<<< HEAD
     display: block;
     width: 50vh;
     word-wrap: break-word;
     margin-top: 2vh;
-=======
-    word-wrap: break-word;
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 }
 
 .benefits-container{
@@ -263,7 +221,6 @@ font-family: var(--main-family);
     font-family: var(--main-family);
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     margin-top: 5vh;
 }
 .ads-text article{
@@ -273,38 +230,26 @@ margin-top: 2vh;
 .ads-text article div{
     margin-right: 2vh;
     cursor: pointer;
-=======
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 }
 
 .ads-text p{
     font-size: 4vh;
-<<<<<<< HEAD
     font-family:var(--main-family) ;
     font-weight: bold;
 }
 
 .ads-text span{
     font-size: 1.25em;
-=======
-}
-
-.ads-text span{
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
     word-wrap: break-word;
 }
 
 .link{
-<<<<<<< HEAD
     font-family: var(--main-family);
     font-weight: bold   ;
-=======
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
     margin-top: 3vh;
     text-decoration: none;
     color: #F6A21C;
 }
-<<<<<<< HEAD
 .link2{
     font-family: var(--main-family);
     font-weight: bold   ;
@@ -312,14 +257,11 @@ margin-top: 2vh;
     text-decoration: none;
     color: #1CB0F6;
 }
-=======
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 .link:hover{
     text-decoration: underline;
 }
 
 
-<<<<<<< HEAD
 .benefits-divs div{
 margin-bottom: 4vh;
 display: flex;
@@ -420,14 +362,6 @@ footer .get h3{
     font-size: 0.9em;
     color: #aaa;
   }
-=======
-
-
-
-
-
-
->>>>>>> b46725d86e7dceb0f2dc3536b8de2ff95720c654
 
 
 
