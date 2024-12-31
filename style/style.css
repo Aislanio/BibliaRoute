@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --main-family:"Inter", sans-serif;
+    --icon-family:'Baloo';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Baloo';
+    src: url('fonts/baloo-1-100/Baloo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    
+
+    display: flex;
+    justify-content: flex-start;
+    background-color: #E47F29;
+
+    text-align: center;
+    align-items: center;
+    padding-left: 40vh;
+}
+
+header .logo h1{
+    font-size: 3em;
+    font-family: 'Baloo';
+    color: white;
+}   
+.container_start{
+    width: 100%;
+    height: 80vh;
+    background-color: #E47F29;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+
+    padding-right: 15vh;
+    padding-bottom: 10vh;
+
+    overflow: hidden;
+}
+
+.start_word img{
+    width: 100%;
+    max-width: 53vh;
+    animation: girar 70s linear infinite;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.start_word{
+    z-index: 1;
+}
+.start_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.start_text div{
+text-align: center;
+}
+.start_text .button{
+    background: #A4D65E;
+    width: 36vh;
+    height: 7vh;
+    border: 1px solid #A4D65E;
+    border-radius: 10px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+
+    margin-top: 2vh;
+
+    box-shadow: 0 4px 15px rgba(107, 142, 57, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.start_text .button:hover {
+    box-shadow: 0 6px 20px rgba(107, 142, 57, 0.7);
+    transform: scale(1.05);
+  }
+.start_text h2{
+    font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+    z-index: 2;
+  font-size: 3em;   
+  width: 110vh;
+}
+
+.estrelas{
+position: absolute;
+z-index: 0;
+
+-webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: #074983;
+    overflow: hidden; 
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-livros {
+    display: flex;
+    list-style: none;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-livros li {
+    font-size: 1.3em;
+    margin-right: 4vh;
+    flex-shrink: 0;
+  }
+  
+.next{
+    font-size: 1.3em;
+    color: white;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 14vh;
+    font-family: var(--main-family);
+}
+
+section h3{
+    font-size: 5vh;
+    margin-bottom: 3vh;
+}
+section span{
+    font-size: 2.3vh;
+    color: #777777;
+}
+.divisoria{
+    width:80%;
+    height: 1.57px;
+    background-color: #E5E5E5;
+
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+.benefits-section, .benefits-container{
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+}
+.benefits-container span{
+    display: block;
+    width: 50vh;
+    word-wrap: break-word;
+    margin-top: 2vh;
+}
+
+.benefits-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefits-container p{
+font-family: var(--main-family);
+    font-size: 4vh;
+}
+
+.ads-super{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.ads-text{
+    width: 50%;
+    font-family: var(--main-family);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.ads-text article{
+display: flex;
+margin-top: 2vh;
+}
+.ads-text article div{
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.ads-text p{
+    font-size: 4vh;
+    font-family:var(--main-family) ;
+    font-weight: bold;
+}
+
+.ads-text span{
+    font-size: 1.25em;
+    word-wrap: break-word;
+}
+
+.link{
+    font-family: var(--main-family);
+    font-weight: bold   ;
+    margin-top: 3vh;
+    text-decoration: none;
+    color: #F6A21C;
+}
+.link2{
+    font-family: var(--main-family);
+    font-weight: bold   ;
+    margin-top: 3vh;
+    text-decoration: none;
+    color: #1CB0F6;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+
+.benefits-divs div{
+margin-bottom: 4vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+footer{
+    background-color:#E47F29;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10vh;
+    z-index: 3;
+}
+
+footer section{
+    z-index: 3;
+}
+footer .get{
+    display: flex;
+    
+}
+footer .get h3{
+    font-size: 2em;
+    font-family: 'Baloo';
+    color: white;
+    margin-right: 2.3vh;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #f4a261;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  #language-select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  #language-select option {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+  }
+
+
+
+
+
+
+
+/*Animaçôes*/
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
